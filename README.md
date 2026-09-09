@@ -2,7 +2,9 @@
 
 A voice Assessment Centre rehearsal. You sit with three AI candidates, study a generated case pack, then talk — they can interrupt you — and an assessor writes a debrief from the transcript.
 
-## GitHub Pages
+## GitHub Pages (no server)
+
+This is a **static site**. No Python, no FastAPI, nothing to host except GitHub Pages.
 
 Live at **https://6309-lcy.github.io/briefroom/**
 
@@ -11,9 +13,7 @@ Live at **https://6309-lcy.github.io/briefroom/**
 3. Pick a live model and a strong model.
 4. Issue the pack.
 
-The key is kept **in this browser tab only**. Refreshing the page clears it — you paste it again each visit. Nothing is written to localStorage or the repo.
-
-Chrome is best (live speech recognition). Hold **Space** or the mic.
+The browser talks to OpenRouter directly. The key stays **in this tab only** — refresh clears it. Chrome is best (live speech recognition). Hold **Space** or the mic.
 
 ## Why LangGraph
 
