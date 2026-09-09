@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BriefRoom — Assessment Centre rehearsal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700;800&family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=pages1" />
+    <style>
+      html, body { background: #efe4cc !important; color: #1a1612 !important; }
+    </style>
+  </head>
+  <body data-view="setup">
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="mast">
+      <div class="mast-left">
+        <p class="stamp" aria-hidden="true">Confidential</p>
+        <p class="wordmark">BriefRoom</p>
+        <p class="wordmark-sub">Assessment Centre · Candidate copy</p>
+      </div>
+      <div class="mast-right" id="top-meta"></div>
+    </header>
+    <main id="main">
+      <section id="view-setup" class="view" data-view="setup"></section>
+      <section id="view-prep" class="view hidden" data-view="prep"></section>
+      <section id="view-live" class="view hidden" data-view="live"></section>
+      <section id="view-debrief" class="view hidden" data-view="debrief"></section>
+    </main>
+    <div id="toast" class="toast hidden" role="status"></div>
+    <div id="pack-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="pack-modal-title"></div>
+    <div id="settings-modal" class="modal hidden" role="dialog" aria-modal="true"></div>
+    <script src="catalog.js?v=pages1"></script>
+    <script src="engine.js?v=pages1"></script>
+    <script src="app.js?v=pages1"></script>
+  </body>
+</html>
